@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+header {
+height: 270px;
+}
+#contenedor {
+width: 960px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+#botonera_principal {
+width: 938px;
+position: sticky;
+height: 65px;
+background-color: #fff;
+}
+#botonera_principal ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#botonera_principal ul li {
+display: inline;
+}
+#botonera_principal ul li a {
+display: inline-block;
+color: #000000;
+text-decoration: none;
+text-align: center;
+border-right: 1px dotted #ffffff;
+width: 183px;
+height: 70px;
+line-height: 70px;
+margin: 0px;
+}
+#botonera_principal ul li a:hover {
+background-color: #f0f3bd;
+padding: 0;
+}
+#marca {
+height: 90px;
+padding-block-start: 100px;
+border-left: solid 20px #ffffff;
+background: rgb(160, 244, 215);
+background: linear-gradient(
+0deg,
+rgba(0, 162, 255, 0.996) 0%,
+rgb(110, 209, 255) 100%
+);
+}
+#contenido {
+padding: 20px;
+padding-block-start: 50px;
+background-color: #fff;
+border-left: 20px solid #0095ff;
+}
+input,
+textarea {
+width: 100%;
+display: block;
+margin-bottom: 5px;
+padding: 10px;
+box-sizing: border-box;
+}
+body {
+background: #f6f5f7;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: "Montserrat", sans-serif;
+height: 100vh;
+margin: 0px 0 50px;
+}
+h1 {
+font-weight: bold;
+margin: 0;
+font-size: 36px;
+color: rgb(255, 255, 255);
+padding: 20px;
+}
+h2 {
+text-align: center;
+}
+a {
+color: #2a2a2a;
+font-size: 14px;
+text-decoration: none;
+margin: 15px 0;
+}
+button {
+border-radius: 20px;
+border: 3px solid #000000;
+background-color: #45d9fb;
+color: #ffffff;
+font-size: 12px;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: transform 80ms ease-in;
+}
+button:active {
+transform: scale(0.95);
+}
+button:focus {
+outline: none;
+}
+form {
+background-color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 50px;
+height: 100%;
+text-align: center;
+}
+input {
+background-color: #eee;
+border: none;
+padding: 12px 15px;
+margin: 8px 0;
+width: 100%;
+}
+a.boton_editar {
+color: #2a9d8f;
+}
+.boton_borrar {
+border-radius: 16px;
+border: 3px solid rgb(0, 0, 0);
+background-color: red;
+font-weight: bold;
+padding: 10px 15px;
+}
+tabla {
+border-collapse: collapse;
+width: 100%;
+margin: 0 auto;
+margin-right: auto;
+}
+
+thead {
+color: rgb(36, 36, 36);
+}
+th,
+td {
+text-align: center;
+padding: 5px 0;
+}
+tbody tr:hover {
+background: #fff;
+color: #565a5d;
+}
+.danger {
+color: red;
+}
+footer {
+background-color: #02c39a;
+padding: 20px;
+border-left: 20px solid #fd286f;
+}
+.tituloPagina{
+color: #565a5d;
+}
